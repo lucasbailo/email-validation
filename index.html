@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/image-avatar.png">
+  <link rel="stylesheet" href="./styles/reset.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/styles.css">
+  
+  
+  <title>Ping coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header class="logo__ping">
+    <img src="./images/logo.svg" alt="Ping Logo">
+  </header>
+
+  <main>
+      
+    <div>
+      <h1 class="main__title">We are launching <strong>soon!</strong></h1>
+      <p class="main__text">Subscribe and get notified</p>
+    </div>
+
+    <section class="main__input-and-button">
+      <div class="main__input-alert-container">
+        <div class="main__input-container">
+          <input type="email" placeholder="Your email adress..." class="main__input main__input-wrong" id="input-email" data-input>
+        </div>
+
+        <div class="main__alert-container">
+          <p class="main__alert" data-alert>Please provide a valid email adress</p>
+        </div>
+      </div>
+
+      <div class="main__button-container" data-button>
+        <button type="button" class="main__button">Notify Me</button>
+      </div>
+    </section>
+
+    <div class="main__image-container">
+      <img src="./images/illustration-dashboard.png" alt="Uncomplete dashboard" class="main__image">
+    </div>
+
+  </main>
+
+  <footer class="footer__container">
+
+    <div class="footer__icons-container">
+      <div class="footer__container-unique">
+        <i class="fa-brands fa-facebook footer__icons footer__icons1"></i> 
+        <i class="fa-brands fa-twitter footer__icons footer__icons2"></i>
+        <i class="fa-brands fa-instagram footer__icons footer__icons3"></i>
+      </div>  
+    </div>
+
+    <div class="footer__copyright-container">
+      <p class="footer__copyright">&copy; Copyright Ping. All rights reserved.</p>
+    </div>
+
+    <p class="attribution">
+      Challenge by <a rel="noopener" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a rel="noopener" href="https://github.com/lucasbailo" target="_blank">Lucas Bailo</a>.
+    </p>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/eb4de64db4.js" crossorigin="anonymous"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
