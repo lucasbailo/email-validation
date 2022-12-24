@@ -7,6 +7,8 @@ This is a solution to the [Ping coming soon page challenge](https://www.frontend
 
 ![](./Coming%20Soon.png)
 
+## Test the project on your device: [Teste the project here!!!](https://email-validation-rust.vercel.app/)
+
 ### Built with
 
 - Semantic HTML5;
